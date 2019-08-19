@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="raspimouse_ros_tuto" name="buzzer" type="buzzer.py" required="true" />
+  <node pkg="raspimouse_ros_tuto" name="lightsensors" type="lightsensors.py" required="true" />
+  <node pkg="raspimouse_ros_tuto" name="motors" type="motors.py" required="true" />
+</launch>
