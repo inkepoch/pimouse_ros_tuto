@@ -7,6 +7,9 @@ sudo apt install python-catkin-tools
 rsync -av ./ ~/catkin_ws/src/pimouse_ros/
 sudo apt-get install protobuf-compiler
 
+#create Log Space
+mkdir ~/catkin_ws/logs
+
 cd ~/catkin_ws
 rm -rf build/ devel/
-catkin build catkin build
+catkin build
