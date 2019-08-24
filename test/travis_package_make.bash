@@ -14,5 +14,5 @@ mkdir ~/catkin_ws/logs
 cd ~/catkin_ws
 rm -rf build/ devel/
 catkin init
-catkin clean
+echo y | catkin clean
 catkin build
