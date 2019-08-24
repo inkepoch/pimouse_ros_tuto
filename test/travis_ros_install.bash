@@ -1,8 +1,6 @@
 #!/bin/bash -xve
 
 #required packages
-# In general, sudo should not be used for pip,
-# but I have written it for solving a path problem on Travis CI.
 sudo pip install catkin_pkg
 sudo pip install empy
 sudo pip install pyyaml
