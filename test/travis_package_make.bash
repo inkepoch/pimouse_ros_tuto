@@ -12,4 +12,6 @@ mkdir ~/catkin_ws/logs
 
 cd ~/catkin_ws
 rm -rf build/ devel/
+wstool update
+catkin init
 catkin build
