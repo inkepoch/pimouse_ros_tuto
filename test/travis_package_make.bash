@@ -13,6 +13,7 @@ mkdir ~/catkin_ws/logs
 
 cd ~/catkin_ws
 rm -rf build/ devel/
+. /opt/ros/melodic/setup.bash
 catkin init
 echo y | catkin clean
 catkin build
