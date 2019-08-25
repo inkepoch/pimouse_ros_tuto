@@ -8,5 +8,5 @@ script:
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws/devel/setup.bash
-  - bash -xve ./test/travis_ros_install.bash 
+  - sudo -H pip install pyyaml
   - rostest pimouse_ros_tuto test.launch
