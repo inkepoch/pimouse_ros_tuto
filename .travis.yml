@@ -8,5 +8,5 @@ script:
   - source ~/catkin_ws/devel/setup.bash
   - bash -xve ./test/travis_package_make.bash
   - source ~/catkin_ws/devel/setup.bash
-  - chmod +x ./script/buzzer1.py
+  - chmod +x ./scripts/buzzer1.py
   - rostest pimouse_ros_tuto test.launch
