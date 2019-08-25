@@ -3,7 +3,7 @@
 #required packages
 sudo pip install catkin_pkg
 sudo pip install empy
-sudo pip install pyyaml
+#sudo pip install pyyaml
 sudo pip install rospkg
 #apt install python-rostest
 
