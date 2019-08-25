@@ -7,6 +7,9 @@ sudo apt install python-catkin-tools
 rsync -av ./ ~/catkin_ws/src/pimouse_ros/
 sudo apt-get install protobuf-compiler
 
+#try install yaml
+pip install pyyaml
+
 #create Log Space
 mkdir ~/catkin_ws/logs
 
