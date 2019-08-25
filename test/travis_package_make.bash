@@ -8,8 +8,8 @@ rsync -av ./ ~/catkin_ws/src/pimouse_ros/
 sudo apt-get install protobuf-compiler
 
 #try install -> OK
-pip install pyyaml
-pip install rospkg
+#pip install pyyaml
+#pip install rospkg
 
 #create Log Space
 mkdir ~/catkin_ws/logs
